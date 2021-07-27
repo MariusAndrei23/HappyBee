@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="FAEF358E-10DB-02AA-73C5-322A1D528438" containerWithKeyObject="138647FB-3284-51EC-B2E5-50FEE788FC39" localFKIndex="41D8F5BE-67EB-06D5-767D-F6FDC1D822FF" name="Sesizari_Blog_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>877960D5-5F90-C923-CC21-07247E093D6E</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<referredTableLongName>Blog</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>C4B55C7D-F056-414A-6595-5C9B349FF502</referredTableID>
+<keyObject>1148E73A-31A5-0DFF-BBCF-16B1A5BE587A</keyObject>
+<referredKeyID>1148E73A-31A5-0DFF-BBCF-16B1A5BE587A</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_blog</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

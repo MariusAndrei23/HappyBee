@@ -1,0 +1,171 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="DB55DED5-D7F2-79A5-15D3-37261FB82A11" name="Hranire">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:52:45 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_hranire" id="92F04BE5-0AEC-6C98-CC86-63C60B86E7EF">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:52:55 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="tip_hranire" id="DA3A77F0-2005-7232-020E-C37F7822A9E6">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:53:13 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="hrana" id="CD31C85D-B27B-313A-44DC-60716318DA0D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:53:42 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantitate" id="0A921895-7891-E861-F6ED-59217D7CBA9C">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:54:48 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<constraintName>cantitate_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="nr_stupi_hraniti" id="84ED1241-60B3-DEE6-EF1F-A10FBA4EC066">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:55:23 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<constraintName>nr_stupi_hraniti_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="cantitate_per_stup" id="3946F0AB-C3D0-E443-9389-4E19EEF4CFF2">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:56:01 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<constraintName>cantitate_per_stup_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="descriere" id="33F3F3D8-B61D-3D4E-DF4F-B8066A75314B">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:56:30 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_deleted" id="7A0F5C2C-FEC6-609B-0A11-C1E37964E839">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:54:29 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_stupina" id="DBDBF27D-C599-63CD-CCF2-29039F1361B0">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:10:43 UTC</createdTime>
+<generatorID>999908CD-6EFC-845D-B292-4AD732C74CFE</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<referedAttribute>6F013C73-D2C3-AD4C-0E39-A347A5F8D440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="8ED7F308-10D4-54C6-89A9-253687DD89CB" name="Hranire PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:53:10 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>92F04BE5-0AEC-6C98-CC86-63C60B86E7EF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,131 @@
+<resources>
+    <string name="app_name">HappyBee</string>
+    <string name="buttonADD">TEST</string>
+    <string name="getBtn">Get</string>
+    <string name="putBtn">Put</string>
+    <string name="postBtn">Post</string>
+    <string name="deleteBtn">Delete</string>
+    <string name="buttonGallery">Button</string>
+    <string name="reseteaza">Reseteaza</string>
+    <string name="introduceti_contul_de_email">Introduceti contul de email</string>
+    <string name="descriere">Descriere</string>
+    <string name="locatie">Locatie</string>
+    <string name="adauga_stupina">Adauga stupina</string>
+    <string name="nume_stupina">Nume Stupina</string>
+    <string name="adauga_stupina_btn">Adauga Stupina</string>
+    <string name="confirmare_parola">Confirmare parola</string>
+    <string name="alias">Alias</string>
+    <string name="prenume">Prenume</string>
+    <string name="nume">Nume</string>
+    <string name="creare_cont">Creare cont!</string>
+    <string name="creare_cont_btn">Creare cont</string>
+    <string name="email">Email</string>
+    <string name="nu_ai_cont_apasa_aici">Nu ai cont? Apasa aici!</string>
+    <string name="logare">Logare</string>
+    <string name="ai_uitat_parola">Ai uitat parola?</string>
+    <string name="user">User</string>
+    <string name="todo">TODO</string>
+    <string name="parola">Parola</string>
+    <string name="conffirmare_parola">Conffirmare parola</string>
+    <string name="parola_noua">Parola noua</string>
+    <string name="confirmare_parola_noua">Confirmare parola noua</string>
+    <string name="galerie">Galerie</string>
+    <string name="postimage">PostImage</string>
+    <string-array name="OrientareStup">
+        <item>Orientare Stup</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="StareStup">
+        <item>Stare Stup</item>
+        <item>Activ</item>
+        <item>Roi</item>
+        <item>Roit</item>
+        <item>Fara matca</item>
+        <item>In imperechere</item>
+        <item>Bolnav</item>
+        <item>Inactiv</item>
+    </string-array>
+    <string-array name="SelectStupina">
+        <item>Stupina</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="DinStupina">
+        <item>Din stupina</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="TipHranire">
+        <item>Iernare</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="Tip">
+        <item>tip</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="Actiune">
+        <item>Actiune</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="Starestup">
+        <item>Stare stup</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="tipMiere">
+        <item>TipMiere</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string-array name="nrStup">
+        <item>NumarStup</item>
+        <item>Vertical</item>
+        <item>Orizontal</item>
+        <item>Alta categorie</item>
+    </string-array>
+    <string name="my_text"><u>Despre</u></string>
+    <string name="textDespre"> </string>
+    <string name="meniu">&#xf0c9;</string>
+    <string name="stea">&#xf005;</string>
+    <string name="task">&#xf274;</string>
+    <string name="check">&#xf00c;</string>
+    <string name="warning">&#xf071;</string>
+    <string name="alert">&#xf12a;</string>
+    <string name="add">&#xf067;</string>
+    <string name="gunoi">&#xf2ed;</string>
+    <string name="intrebare">&#xf128;</string>
+    <string name="info">&#xf129;</string>
+
+    <string name="title_activity_home_page_menu">HomePageMenu</string>
+    <string name="title_activity_cantar">Cantar</string>
+    <string name="title_activity_extractie_miere">ExtractieMiere</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Setari profil</string>
+
+    <string name="profil">Profil</string>
+    <string name="statistici">Statistici</string>
+    <string name="stupina">Stupina</string>
+    <string name="verificari">Verificari</string>
+    <string name="cantar">Cantar</string>
+    <string name="extractie">Extractie miere</string>
+    <string name="hranire">Hranire</string>
+    <string name="tratare">Tratare</string>
+    <string name="deplasari">Deplasari</string>
+    <string name="despre">Despre</string>
+</resources>

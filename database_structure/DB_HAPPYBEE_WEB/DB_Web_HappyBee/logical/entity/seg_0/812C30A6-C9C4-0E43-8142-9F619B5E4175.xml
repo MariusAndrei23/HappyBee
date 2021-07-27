@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="812C30A6-C9C4-0E43-8142-9F619B5E4175" name="Articole">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-05 14:44:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id articol" id="95DF1BA3-D87A-3E4D-98F6-512807D1ED87">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:09:12 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="titlu" id="50221B59-53B3-7038-AF95-64DCF84986D4">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:09:38 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriere" id="E799FD51-03C3-7760-B1CD-856BDB31CBF6">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:10:31 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id parinte" id="9504EAC4-4A4E-FF95-CAE1-3DB255E50546">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:11:28 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is deleted" id="0A507D7A-AE24-5973-CA50-B6504E8915BD">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:15:21 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Articole id articol" id="46EAB795-141E-4BC6-D55F-55FE29A16A9E">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:30:24 UTC</createdTime>
+<generatorID>1BBBDF88-5916-D04C-7AB1-C43C29F2A37C</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<referedAttribute>95DF1BA3-D87A-3E4D-98F6-512807D1ED87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D9A5E1BC-9392-EAF4-0FF9-3F61626F47AD" name="Articole PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:09:32 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>95DF1BA3-D87A-3E4D-98F6-512807D1ED87</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

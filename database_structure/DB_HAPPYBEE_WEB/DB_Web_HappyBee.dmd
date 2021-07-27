@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="DB_Web_HappyBee" id="7BE3CD73-A9FB-AFCD-218C-CD9A8AB3D97D" version="3.5">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 19:58:14 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>7BE3CD73-A9FB-AFCD-218C-CD9A8AB3D97D</designId>
+</OSDM_Design>

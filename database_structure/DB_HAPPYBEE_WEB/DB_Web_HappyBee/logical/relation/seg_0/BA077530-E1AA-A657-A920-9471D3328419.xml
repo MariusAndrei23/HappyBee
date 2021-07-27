@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Anunturi Utilizatori FK" directorySegmentName="seg_0" id="BA077530-E1AA-A657-A920-9471D3328419">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:25:20 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<sourceTransferable>false</sourceTransferable>
+<sourcePk>50B3F397-D8BC-9A7B-5659-7E8200AE7C8B</sourcePk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>3391263A-9F22-D8A8-18BD-E55CFBA804B5</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>06D64374-AC65-2B07-2B7A-B6CF2E780D7C</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

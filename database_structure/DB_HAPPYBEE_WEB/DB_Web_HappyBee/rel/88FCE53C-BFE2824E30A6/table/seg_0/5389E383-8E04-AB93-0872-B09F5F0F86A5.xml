@@ -1,0 +1,111 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5389E383-8E04-AB93-0872-B09F5F0F86A5" name="Articole">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>812C30A6-C9C4-0E43-8142-9F619B5E4175</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_articol" id="151C2500-B883-9E7E-4BE9-670790B13ED4">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>95DF1BA3-D87A-3E4D-98F6-512807D1ED87</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titlu" id="CF663008-908D-ACF7-14FF-CD1B470FF76F">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>50221B59-53B3-7038-AF95-64DCF84986D4</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriere" id="3B1E384D-202C-A742-9AD2-C90A373DDE32">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>E799FD51-03C3-7760-B1CD-856BDB31CBF6</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>3000</dataTypeSize>
+<ownDataTypeParameters>3000,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parinte" id="016188E9-E723-12D9-8390-12083E1DF274">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>9504EAC4-4A4E-FF95-CAE1-3DB255E50546</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="A9C11986-03D0-485A-80D4-01806DD9E169">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>0A507D7A-AE24-5973-CA50-B6504E8915BD</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Articole_id_articol" id="D976F461-51FD-9E9A-38FE-8BE728C3510B">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:32:28 UTC</createdTime>
+<generatorID>46EAB795-141E-4BC6-D55F-55FE29A16A9E</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72210284-3E44-BE88-D675-6F3E971FF487" referredColumn="151C2500-B883-9E7E-4BE9-670790B13ED4"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="43920452-0A55-FBB7-ED1E-20CAF2018523" name="Articole_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>D9A5E1BC-9392-EAF4-0FF9-3F61626F47AD</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="151C2500-B883-9E7E-4BE9-670790B13ED4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3181BB4A-0650-A7E0-CBCD-AE3B037A99C9" name="Articole_Articole_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:32:28 UTC</createdTime>
+<generatorID>1BBBDF88-5916-D04C-7AB1-C43C29F2A37C</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D976F461-51FD-9E9A-38FE-8BE728C3510B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

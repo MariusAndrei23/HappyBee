@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="DD8A79E3-9259-EF5F-E5FE-C436CBAC1DBD" containerWithKeyObject="138647FB-3284-51EC-B2E5-50FEE788FC39" localFKIndex="6F2B633E-FFB6-872F-394B-8B57A819C9DF" name="Sesizari_Utilizatori_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:48:31 UTC</createdTime>
+<generatorID>1FE292A3-7314-FBA1-1088-C4F53DEFF219</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<referredTableLongName>Utilizatori</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>38E5B1C0-7105-D94D-D8F2-8A8797836FB3</referredTableID>
+<keyObject>4269432C-21E0-DD76-1B33-D5F5706679B8</keyObject>
+<referredKeyID>4269432C-21E0-DD76-1B33-D5F5706679B8</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_utilizator</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

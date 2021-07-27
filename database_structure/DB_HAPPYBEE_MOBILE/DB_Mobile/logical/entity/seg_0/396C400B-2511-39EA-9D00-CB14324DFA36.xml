@@ -1,0 +1,223 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="396C400B-2511-39EA-9D00-CB14324DFA36" name="Utilizatori">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<generatorID>D100E1B1-BA65-63AE-400C-FA9DD61D29DC</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_utilizator" id="89B8A962-95CC-AEB2-3386-0F1E27911CBA">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>D9F427CA-BEA6-F9FA-4180-FFD4E3B9C631</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fotografie" id="85EA76C7-9D92-D15F-15DD-009DF9691C3D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>B0FF2BAD-2EEF-6AF6-403F-B1D06F18E4E7</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume" id="3E1D3C87-ECD9-1607-7080-6F7E26EC718D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>BB593425-2ADC-E1ED-E98B-234C37262835</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="prenume" id="6B380A9C-874C-F83F-5113-881497170147">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>0FF71101-F927-36C2-1D90-C3C069CC4EB5</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="sex" id="D0AEB982-E7E5-BA50-2B85-85B61814D4E0">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>65313640-2661-FA80-8D35-49074F3DAE85</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="A63AAE66-56F2-248B-2EEA-843751EF43C5">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>758F81F7-0C23-9852-D148-158B9E3FDA0C</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="alias" id="32206704-5AC7-B506-49AA-A189F5D94B58">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>5C0850E0-D448-6A93-21B3-57AEE39E4276</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="parola" id="2A62ECEE-67BD-23C7-6077-74C51CA3D8CD">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>8B5D1D9A-FB8D-9898-E3F8-A007ADBC1788</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="judet" id="B085ED12-F0FC-971C-6186-ADE618ABC01F">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>FD60C226-2D18-AE38-2405-BDAD4AF13637</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="localitate" id="F25D8AAE-68AA-2462-A693-22CAE9123F52">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>82E26F4A-F9CF-438D-ABEE-7324B610095A</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="adresa" id="92022E4A-3AAB-12D1-AD9D-278D2B85C312">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>11E4B749-1BBE-8B09-7CA8-31A644AA7729</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_admin" id="05DBC1F6-C764-1988-1C62-2D8498776844">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>7E61F910-FF0E-2C40-3CAD-7326605CA2EB</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_deleted" id="89D45063-8ECA-7B02-590E-3E2CA8ACBF67">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<importedID>383682E9-3E46-FEDC-3C3B-12BE4AB97F99</importedID>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="504D2AF7-58EE-C74D-93CB-4A23243A37AE" name="Utilizatori PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:47:17 UTC</createdTime>
+<generatorID>8D85F61C-A72A-977B-596A-2E7F947644D3</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>89B8A962-95CC-AEB2-3386-0F1E27911CBA</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

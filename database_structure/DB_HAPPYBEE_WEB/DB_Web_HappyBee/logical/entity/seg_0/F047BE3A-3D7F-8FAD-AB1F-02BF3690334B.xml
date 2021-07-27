@@ -1,0 +1,85 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F047BE3A-3D7F-8FAD-AB1F-02BF3690334B" name="Poze articol">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:15:59 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id poza" id="EC8CBD6D-44BB-3EEE-E09D-C2D607E09946">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:18:56 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="poza" id="6E127385-5E60-3D71-6083-5A04C147BF24">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:16:12 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descriere" id="B51D7DB2-93EB-FDCF-C43D-702708CB3292">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:18:18 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Articole id articol" id="4D27F24D-39A7-88E7-21C6-8B016E61301B">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:31:05 UTC</createdTime>
+<generatorID>45FCBF34-16F7-F715-3DA1-38551A127A76</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<referedAttribute>95DF1BA3-D87A-3E4D-98F6-512807D1ED87</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="EB494D1E-80F9-3A7E-1896-18BBACC92605" name="Poze_articol_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:16:26 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>EC8CBD6D-44BB-3EEE-E09D-C2D607E09946</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

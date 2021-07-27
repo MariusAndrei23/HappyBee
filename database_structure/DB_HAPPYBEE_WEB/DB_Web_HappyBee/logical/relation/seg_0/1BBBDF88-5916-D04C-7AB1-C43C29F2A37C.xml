@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Articole Articole FK" directorySegmentName="seg_0" id="1BBBDF88-5916-D04C-7AB1-C43C29F2A37C">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:30:24 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<sourcePk>D9A5E1BC-9392-EAF4-0FF9-3F61626F47AD</sourcePk>
+<targetPk>D9A5E1BC-9392-EAF4-0FF9-3F61626F47AD</targetPk>
+<identifying>false</identifying>
+<optionalSource>false</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>812C30A6-C9C4-0E43-8142-9F619B5E4175</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>812C30A6-C9C4-0E43-8142-9F619B5E4175</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

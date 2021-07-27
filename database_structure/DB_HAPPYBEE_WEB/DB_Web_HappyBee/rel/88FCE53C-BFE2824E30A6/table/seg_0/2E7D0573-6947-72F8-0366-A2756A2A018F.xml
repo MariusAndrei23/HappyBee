@@ -1,0 +1,158 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="2E7D0573-6947-72F8-0366-A2756A2A018F" name="Anunturi">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>06D64374-AC65-2B07-2B7A-B6CF2E780D7C</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_anunt" id="AC99E362-5EB8-D9BF-9720-DECE71F6C8A1">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>F1B9E07D-BBF8-ACB9-FCF8-2041BD407320</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="titlu" id="D7C1349D-ADAE-CC9B-B990-3677B0DF4472">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>D60F264C-5384-A6C6-0198-DF09D1A27D08</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_postare" id="D8085A4E-9AE8-8B76-F1B1-19F979ACAA26">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>7EC6339B-17ED-C306-66C5-EA2482B9F50D</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_limita" id="FED632AC-AB07-840D-CC67-CDE6FCFBB146">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>5B4D3664-B2C6-BBCD-904B-96C8F1557311</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT008</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="poza" id="AFD336AB-3347-800A-A26E-21914BAE78BB">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>102E9984-66B1-712E-53F2-6845BA4B82BA</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_postare" id="1DEF3F2B-5570-17BC-1CFB-76178F9101E7">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>B157909A-1AB0-D6CA-D611-80990A0FF7F7</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriere" id="E2511AD3-8B1B-3B1D-A371-592BC39156F5">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>66D6627A-4941-9278-A790-457EC9A3890E</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>40</dataTypeSize>
+<ownDataTypeParameters>40,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="vizibilitate" id="36E945AE-8569-EFAC-3FC7-47A5C0497025">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>C3D9F155-9F81-CFD5-FBB8-84C262A968A3</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="36A178D6-3F2A-9A5D-6918-2DB8AAC5B80D">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>F9DF5C42-7696-BD67-2986-FEDD2BC23C3F</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utilizatori_id_utilizator" id="AB3F36B5-C491-683B-4D09-52A36C47017F">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:26:09 UTC</createdTime>
+<generatorID>11E5477B-273F-2748-8F6C-1E80717DF0BF</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="10154E96-E240-C2A8-FD8C-2E01644AC56E" referredColumn="1B5CAB97-747F-1294-1956-9CBA2F5743EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="79E52A8B-D5D0-1B32-C119-35C32C2F3E15" name="Anunturiv1_PK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>14CA0FE2-01D1-FDD7-7E8F-6E630BC41CF9</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AC99E362-5EB8-D9BF-9720-DECE71F6C8A1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="4FE9E9AA-AEE1-7FC9-BCCE-AC49556E8EB8" name="Anunturi_Utilizatori_FK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:26:09 UTC</createdTime>
+<generatorID>BA077530-E1AA-A657-A920-9471D3328419</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="AB3F36B5-C491-683B-4D09-52A36C47017F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

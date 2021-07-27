@@ -1,0 +1,130 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B479AB8A-FB3B-F55B-D86B-D92E93DEC763" name="Extractie">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>67A4F96B-2614-D898-A362-1C4AA93A28B2</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_extractie" id="EAD01117-D233-B69B-5B9F-43D6DC4428E5">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>84AD1C8B-D0BD-EE09-C789-102EF8533671</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="E0D05B84-C47F-0DF8-1C89-441A2119A418">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>1DE923AC-D14F-9215-FF48-E323960A943C</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_miere" id="D57358BF-9112-A6FD-19C9-36C1CBF28BE7">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>7040DC63-C469-85D0-42E6-F6BA2AB4A360</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantitate" id="A97D8BD3-63D5-003C-204D-DA68070D59E0">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>8D7A20AB-8766-4436-6803-6AC0E541260E</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<constraintName>cantitate_extractie_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT021</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<dataTypeScale>3</dataTypeScale>
+<ownDataTypeParameters>,3,3</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+</rangeDef>
+</listOfRanges>
+</Column>
+<Column name="descriere" id="D5E2F3DE-07EE-A0F5-97CF-E00AA574E8E7">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>09AC00DC-E18A-7F8C-6EF0-63533480202C</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="A33CD4FB-4557-C89A-12E8-CABA298879AF">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>F4036020-7A38-39A8-7157-9064B7D6F644</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stupina_id_stupina" id="CA94EAB0-3B38-7DF2-2C7F-A34B7DB638DF">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>87397A68-5336-7EEA-3C79-7BBFFC920CC0</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3E676271-D2D4-FEFA-D073-B0453B2D5ED8" referredColumn="631ABF7C-027B-1963-3AF1-4B4564387A30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="60E83B0A-F157-A99C-AC8D-10AB53F7CA90" name="Extractie_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>061BB9D2-5DDA-3D97-9F22-D7A514A1EFC0</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EAD01117-D233-B69B-5B9F-43D6DC4428E5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C24ABEED-D5E3-025E-753B-3F6689A52D35" name="Extractie_Stupina_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>7685669C-3CC9-7520-6484-5AFE804D9321</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CA94EAB0-3B38-7DF2-2C7F-A34B7DB638DF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

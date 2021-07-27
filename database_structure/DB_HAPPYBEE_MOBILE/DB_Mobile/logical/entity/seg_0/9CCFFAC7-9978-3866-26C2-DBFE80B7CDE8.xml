@@ -1,0 +1,164 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="9CCFFAC7-9978-3866-26C2-DBFE80B7CDE8" name="Stup">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:56:29 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_stup" id="AAC2C20A-6D34-5C98-05A1-CD9E23FBBD17">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:56:39 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nume_identificare" id="935E7601-1D6C-A9FC-85F6-8BA7C8185508">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:56:58 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nr_rame" id="946CD673-81E0-83A0-284E-43FD5A975C0E">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:57:55 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<constraintName>nr_rame_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>1</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="orientare_stup" id="150D097A-2ECB-8893-2988-7CAB09E09013">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:00:02 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stare_stup" id="EA923851-CC4E-8A4A-D954-F084BCD37A0B">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:00:37 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="putere_stup" id="C601E633-FC56-33EE-8986-F880ECE3571D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:01:43 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<constraintName>putere_stup_ck</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<listOfRanges>
+<rangeDef class="oracle.dbtools.crest.model.design.constraint.AVT">
+<beginValue>0</beginValue>
+<endValue>100</endValue>
+</rangeDef>
+</listOfRanges>
+</Attribute>
+<Attribute name="descriere" id="A43DE9DC-3F82-3357-DC52-F771B0244E02">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:00:57 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_deleted" id="79DAA014-1F21-BB74-13DF-26ECBFC629B0">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:01:21 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_stupina" id="3965E3EB-4F98-BB87-0576-31E5449635A5">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:09:08 UTC</createdTime>
+<generatorID>064E27AF-71DE-3F32-4A5B-858121CC8177</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="true"/>
+</engineerTo>
+<referedAttribute>6F013C73-D2C3-AD4C-0E39-A347A5F8D440</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="F5F60959-9EDD-5668-E2BB-CB0BC2C00662" name="Stup PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:56:52 UTC</createdTime>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="C341C590-2452-0DC8-6CBD-A4214E261773" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>AAC2C20A-6D34-5C98-05A1-CD9E23FBBD17</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

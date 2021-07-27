@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C4B55C7D-F056-414A-6595-5C9B349FF502" name="Blog">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>F01603E3-BFF0-C5A0-54E1-7073C08883F7</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_blog" id="BB79EBD2-AF18-5B23-DB3A-60836D00F9BA">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>FCC046F5-CD4B-EDA5-3238-B1C0743E6FC5</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="intrebare" id="068EDCB5-C99A-4147-2DDD-53542F029AB9">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>06B3FD6C-9B4A-1765-AA41-07A7E5EF29D3</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data_postare" id="913CF5B2-BAEE-3BC9-D1F7-AA22D244EEE2">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>C95C8548-E3D0-1DBF-C4EA-547C0ADACD08</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="7EE9F039-3A7F-CE8A-A472-2032CD869150">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>51A094B3-6A7D-3ADE-3102-6627B13FE18F</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utilizatori_id_utilizator" id="6D7F8D60-F8A0-02F3-2D75-20DF2D3C2CAE">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:26:09 UTC</createdTime>
+<generatorID>5E9BF769-083A-4DB4-3D01-117732E8D3B6</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="252DE6A8-E373-F677-92C5-4BD52D6210BB" referredColumn="1B5CAB97-747F-1294-1956-9CBA2F5743EC"/>
+</associations>
+</Column>
+<Column name="id_raspuns" id="8BFEE071-D70A-7B45-4CDD-0217D64E4671">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:30:18 UTC</createdTime>
+<generatorID>3D9115A5-B844-6CF2-51A1-B924BA28F64C</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Blog_id_blog" id="9832EDD4-4999-3669-1D20-7BFEC62DBFBD">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:30:18 UTC</createdTime>
+<generatorID>494F43FD-96CD-F01D-3667-1997AA5AB160</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CB5E651E-4E90-462B-D8EB-4BD88B9332B1" referredColumn="BB79EBD2-AF18-5B23-DB3A-60836D00F9BA"/>
+</associations>
+</Column>
+<Column name="is_blog_articol" id="92F1C6ED-1A4A-B5D5-10C9-6E3A1B3CFE74">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 14:24:19 UTC</createdTime>
+<generatorID>BF0D237D-EE5E-BDA7-6209-AE52D753DBBE</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anunturi_id_anunt" id="CFB13C1B-AC77-8DE9-0964-49D6416D1845">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:43:32 UTC</createdTime>
+<generatorID>5A175198-F13A-3275-6592-CEB306D7AC19</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FA690AC5-9300-91A4-0F56-361CC9D343DD" referredColumn="AC99E362-5EB8-D9BF-9720-DECE71F6C8A1"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1148E73A-31A5-0DFF-BBCF-16B1A5BE587A" name="Blog_PK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:24:50 UTC</createdTime>
+<generatorID>4DD8B8D1-2522-A23A-1753-58BB0376BF0A</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="BB79EBD2-AF18-5B23-DB3A-60836D00F9BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9B5AFD7C-D5BB-8BD4-7D09-DC75E924C095" name="Blog_Utilizatori_FK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:26:09 UTC</createdTime>
+<generatorID>A0D9D5E6-FB62-09B1-9FA2-FC020B5212FA</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6D7F8D60-F8A0-02F3-2D75-20DF2D3C2CAE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="715988B4-74A1-B276-5DA8-E565DEAA6E46" name="Blog_Blog_FK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:30:18 UTC</createdTime>
+<generatorID>5CB93DC0-1045-6F1A-2D9B-6A0008A1B5B8</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9832EDD4-4999-3669-1D20-7BFEC62DBFBD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6D60E1A2-916E-E8AF-088D-C9BD6F15D792" name="Blog_Anunturi_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:43:32 UTC</createdTime>
+<generatorID>C857A65E-272B-6BFF-55D8-1784C1DDED74</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CFB13C1B-AC77-8DE9-0964-49D6416D1845"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_profile">
+
+    <fragment
+        android:id="@+id/nav_profile"
+        android:name="com.example.happybee.ui.Profile.ProfileFragment"
+        android:label="@string/profil"
+        tools:layout="@layout/fragment_profile" />
+
+    <fragment
+        android:id="@+id/nav_statistici"
+        android:name="com.example.happybee.ui.Statistici.StatisticiFragment"
+        android:label="@string/statistici"
+        tools:layout="@layout/fragment_statistici" />
+
+    <fragment
+        android:id="@+id/nav_stupina"
+        android:name="com.example.happybee.ui.Stupina.StupinaFragment"
+        android:label="@string/stupina"
+        tools:layout="@layout/fragment_stupina" />
+    <fragment
+        android:id="@+id/nav_verificari"
+        android:name="com.example.happybee.ui.Verificari.VerificariFragment"
+        android:label="Verificari"
+        tools:layout="@layout/fragment_verificari" />
+    <fragment
+        android:id="@+id/nav_cantar"
+        android:name="com.example.happybee.ui.Cantar.CantarFragment"
+        android:label="@string/cantar"
+        tools:layout="@layout/fragment_cantar" />
+    <fragment
+        android:id="@+id/nav_extractie"
+        android:name="com.example.happybee.ui.Extractie.ExtractieFragment"
+        android:label="@string/extractie"
+        tools:layout="@layout/fragment_extractie" />
+    <fragment
+        android:id="@+id/nav_hranire"
+        android:name="com.example.happybee.ui.Hranire.HranireFragment"
+        android:label="@string/hranire"
+        tools:layout="@layout/fragment_hranire" />
+    <fragment
+        android:id="@+id/nav_tratare"
+        android:name="com.example.happybee.ui.Tratare.TratareFragment"
+        android:label="@string/tratare"
+        tools:layout="@layout/fragment_tratare" />
+    <fragment
+        android:id="@+id/nav_deplasare"
+        android:name="com.example.happybee.ui.Deplasari.DeplasariFragment"
+        android:label="@string/deplasari"
+        tools:layout="@layout/fragment_deplasari" />
+    <fragment
+        android:id="@+id/nav_despre"
+        android:name="com.example.happybee.ui.Despre.DespreFragment"
+        android:label="@string/despre"
+        tools:layout="@layout/fragment_despre" />
+    <fragment
+        android:id="@+id/nav_lista"
+        android:name="com.example.happybee.ui.lista.BlankFragment"
+        android:label="@string/despre"
+        tools:layout="@layout/blank_fragment" />
+</navigation>

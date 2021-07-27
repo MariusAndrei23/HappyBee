@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E56547B4-D1EE-3581-D995-5EFB913FE484" name="Stupina">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>7BDB1922-FA96-D972-934C-C7E57C970AA4</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_stupina" id="631ABF7C-027B-1963-3AF1-4B4564387A30">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>6F013C73-D2C3-AD4C-0E39-A347A5F8D440</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume_stupina" id="AF1A3D06-49E5-8124-B493-4A5507990600">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>B32FEF33-1FB1-74A5-7D8B-217EF6A6420E</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50</dataTypeSize>
+<ownDataTypeParameters>50,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="locatie" id="29AB0465-BEEF-0B51-29C0-EB401FBEC6AE">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>94A014B1-ECF5-C22A-8E05-4AC11CF03FBB</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descriere" id="B9D99ED2-FCF1-158A-054C-3785EEFABCD8">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>CFF17761-8944-1DD8-2B73-4992EAC831E7</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>300</dataTypeSize>
+<ownDataTypeParameters>300,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="4AB06452-CD86-3AD0-FB1C-22DFF37DA495">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>5DC89909-F39E-0AFD-F0DE-8252EB64227B</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_parinte" id="3DD0598E-0D1D-800A-A4B4-8284242AD6C0">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>E55E9347-9ECB-C714-ADAB-96CA37371D15</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Utilizatori_id_utilizator" id="0582174C-B4C4-0CE7-D299-54DEBA120C8B">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>3D3F2487-1298-A8B0-11C4-9244233490CE</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="431C08BB-5FA3-1C59-AC5D-869F7704F9BC" referredColumn="94BBEFC5-900D-586D-C087-E6D5C92CE3CB"/>
+</associations>
+</Column>
+<Column name="Stupina_id_stupina" id="ADE5EED2-4C47-FBB9-7419-9CFA92A04E0D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>B677F819-314B-09C6-A876-FE2EE4A05427</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4F4E1593-341F-312D-2B3A-0C2C91354183" referredColumn="631ABF7C-027B-1963-3AF1-4B4564387A30"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2B062317-E935-618D-7DBF-B94BFB618C04" name="Stupina_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>D136FBD2-A851-449D-AAE8-3370840B8E7F</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="631ABF7C-027B-1963-3AF1-4B4564387A30"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A69A77C-2FAA-1215-D05E-EA061CEB48A3" name="Stupina_Utilizatori_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>270832D8-BDCB-5DB3-FFD0-0436D1E9AEBD</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0582174C-B4C4-0CE7-D299-54DEBA120C8B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C7762A7D-7A76-D37D-B28D-8861413D6134" name="Stupina_Stupina_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>026D21A4-DA18-0BF9-5720-D866C3D94887</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="ADE5EED2-4C47-FBB9-7419-9CFA92A04E0D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

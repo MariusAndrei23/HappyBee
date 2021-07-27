@@ -1,0 +1,174 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="138647FB-3284-51EC-B2E5-50FEE788FC39" name="Sesizari">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>E888EA53-96F2-E283-86DF-77F15AB8F150</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_sesizare" id="6ACA568D-91C9-0416-6AB1-C40D60E3BE2A">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>6FA28FCA-E5E3-45AA-FD9F-C2634235DD81</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="subiect" id="EAA9455F-0A24-FB3C-262F-353CBBE13646">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>6C3E141A-C58B-819C-5814-110A9CF465EE</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="mesaj" id="D400F1F8-328C-27B1-A0D7-83679E315412">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>C1D2A1CD-58D3-1F81-AD60-A9A565527F01</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>400</dataTypeSize>
+<ownDataTypeParameters>400,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tip_postare" id="A8DA2F50-8F58-6CB7-E2FE-44F2E83C9DB4">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>B41FF9A0-B48D-886F-19F3-9406F7F3BE2C</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="677BEA2A-5DC6-5E61-DF28-36937CCC7ED2">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>C4D5D824-F1B2-AC2C-5455-8149F784D9DA</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="494DE49B-6A65-EB82-F8BD-40EBB8FEA88E">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>651491E7-5240-C2E0-E0DC-D42343D82EBD</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Anunturi_id_anunt" id="619ECC00-30E4-9673-F991-3F02A5DE4FB6">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>F486485F-182B-282B-E530-2BEC45CB4899</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="62738A27-8E96-EA75-05BB-475A8CCD7795" referredColumn="AC99E362-5EB8-D9BF-9720-DECE71F6C8A1"/>
+</associations>
+</Column>
+<Column name="Blog_id_blog" id="35BDCAFC-413A-71E6-424F-E8A8F9B8CBA1">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>566AD053-187B-62E6-E514-BB405ACB3219</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="FAEF358E-10DB-02AA-73C5-322A1D528438" referredColumn="BB79EBD2-AF18-5B23-DB3A-60836D00F9BA"/>
+</associations>
+</Column>
+<Column name="Utilizatori_id_utilizator" id="3C905693-B6B7-2784-AC40-A1D3248084CC">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:48:31 UTC</createdTime>
+<generatorID>11FDC600-8AF3-D979-50F9-247F8FAA3073</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DD8A79E3-9259-EF5F-E5FE-C436CBAC1DBD" referredColumn="1B5CAB97-747F-1294-1956-9CBA2F5743EC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3B12CEA6-3798-FC19-C7BD-B763BED58D41" name="Sesizari_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>803AE3DC-72B7-7622-1727-85814E8313A2</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6ACA568D-91C9-0416-6AB1-C40D60E3BE2A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6E4FA891-5932-8001-822D-68321F1FF9A7" name="Sesizari_Anunturi_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>428A3F2E-9839-F81A-D103-37C9721A5B9A</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="619ECC00-30E4-9673-F991-3F02A5DE4FB6"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="41D8F5BE-67EB-06D5-767D-F6FDC1D822FF" name="Sesizari_Blog_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>877960D5-5F90-C923-CC21-07247E093D6E</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="35BDCAFC-413A-71E6-424F-E8A8F9B8CBA1"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6F2B633E-FFB6-872F-394B-8B57A819C9DF" name="Sesizari_Utilizatori_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:48:31 UTC</createdTime>
+<generatorID>1FE292A3-7314-FBA1-1088-C4F53DEFF219</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3C905693-B6B7-2784-AC40-A1D3248084CC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

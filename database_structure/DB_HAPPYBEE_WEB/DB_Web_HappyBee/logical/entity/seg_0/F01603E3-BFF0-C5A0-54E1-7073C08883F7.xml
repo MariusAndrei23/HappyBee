@@ -1,0 +1,156 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F01603E3-BFF0-C5A0-54E1-7073C08883F7" name="Blog">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id blog" id="FCC046F5-CD4B-EDA5-3238-B1C0743E6FC5">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<importedID>7075A04C-A790-F30E-A7F8-F0602EB71FC0</importedID>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="intrebare" id="06B3FD6C-9B4A-1765-AA41-07A7E5EF29D3">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<importedID>004FD5BD-EDA0-4DD1-527D-173604B2AC6E</importedID>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="data postare" id="C95C8548-E3D0-1DBF-C4EA-547C0ADACD08">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<importedID>5FCB1349-5918-1DD3-802B-BCDEFB86C38B</importedID>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is deleted" id="51A094B3-6A7D-3ADE-3102-6627B13FE18F">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<importedID>0394D038-E45A-C4B8-26DA-43D6E37340A5</importedID>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id raspuns" id="3D9115A5-B844-6CF2-51A1-B924BA28F64C">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:28:55 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Utilizatori id utilizator" id="5E9BF769-083A-4DB4-3D01-117732E8D3B6">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:25:54 UTC</createdTime>
+<generatorID>A0D9D5E6-FB62-09B1-9FA2-FC020B5212FA</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<referedAttribute>D9F427CA-BEA6-F9FA-4180-FFD4E3B9C631</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Blog id blog" id="494F43FD-96CD-F01D-3667-1997AA5AB160">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:29:47 UTC</createdTime>
+<generatorID>5CB93DC0-1045-6F1A-2D9B-6A0008A1B5B8</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<referedAttribute>FCC046F5-CD4B-EDA5-3238-B1C0743E6FC5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="is_blog_articol" id="BF0D237D-EE5E-BDA7-6209-AE52D753DBBE">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 14:23:42 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id anunt" id="5A175198-F13A-3275-6592-CEB306D7AC19">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-13 16:42:32 UTC</createdTime>
+<generatorID>C857A65E-272B-6BFF-55D8-1784C1DDED74</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="true"/>
+</engineerTo>
+<referedAttribute>F1B9E07D-BBF8-ACB9-FCF8-2041BD407320</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="4DD8B8D1-2522-A23A-1753-58BB0376BF0A" name="Blog PK">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 20:18:05 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="88FCE53C-CC81-C34B-496C-BFE2824E30A6" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>FCC046F5-CD4B-EDA5-3238-B1C0743E6FC5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,7 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<LogicalDesign class="oracle.dbtools.crest.model.design.logical.LogicalDesign" name="Logical" id="9A1205A9-C4A2-4301-8C29-EC045D7050AA" mainViewID="0D36EC37-4CD9-8488-B545-9898973C498C">
+<createdBy>Teo</createdBy>
+<createdTime>2020-12-01 19:58:15 UTC</createdTime>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<shouldBeOpen>false</shouldBeOpen>
+</LogicalDesign>

@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<DatamodelerPersistedDDLSelection designName="DB_Web_HappyBee" objectID="7BE3CD73-A9FB-AFCD-218C-CD9A8AB3D97D">
+   <IncludeComments isSelected="false"/>
+   <applyNameSubstitution isSelected="false"/>
+   <generateDDLInFiles isSelected="false"/>
+   <generateRESTServices isSelected="false"/>
+   <activeScriptSetCBIndex selectedIndex="1"/>
+   <oracle.dbtools.crest.model.design.relational.RelationalDesign objectID="88FCE53C-CC81-C34B-496C-BFE2824E30A6">
+      <object objectID="2E7D0573-6947-72F8-0366-A2756A2A018F" markedGenerate="true"/>
+      <object objectID="C4B55C7D-F056-414A-6595-5C9B349FF502" markedGenerate="true"/>
+      <object objectID="38E5B1C0-7105-D94D-D8F2-8A8797836FB3" markedGenerate="true"/>
+      <object objectID="79E52A8B-D5D0-1B32-C119-35C32C2F3E15" markedGenerate="true"/>
+      <object objectID="1148E73A-31A5-0DFF-BBCF-16B1A5BE587A" markedGenerate="true"/>
+      <object objectID="4269432C-21E0-DD76-1B33-D5F5706679B8" markedGenerate="true"/>
+      <object objectID="4FE9E9AA-AEE1-7FC9-BCCE-AC49556E8EB8" markedGenerate="true"/>
+      <object objectID="715988B4-74A1-B276-5DA8-E565DEAA6E46" markedGenerate="true"/>
+      <object objectID="9B5AFD7C-D5BB-8BD4-7D09-DC75E924C095" markedGenerate="true"/>
+      <object objectID="47E390DE-0671-C4B1-8428-0F45CBEE18F8" markedGenerate="true"/>
+      <object objectID="F72C39E0-D1CA-8821-2AD7-A1E95A37D3D1" markedGenerate="true"/>
+   </oracle.dbtools.crest.model.design.relational.RelationalDesign>
+   <includeTableScripts/>
+   <namesSubstitution/>
+   <objectTypes>
+      <objectType isSelected="false" type="Index"/>
+      <objectType isSelected="false" type="Role"/>
+      <objectType isSelected="false" type="Table"/>
+      <objectType isSelected="false" type="Tablespace"/>
+      <objectType isSelected="false" type="User"/>
+   </objectTypes>
+   <OSDDM_DDLPP>
+      <db2_term_char db2_term_char=" "/>
+      <type_subst_triggers isSelected="true"/>
+      <fkarct_triggers isSelected="true"/>
+      <fk_none_transferable_triggers isSelected="true"/>
+      <show_char_byte_in_ddl isSelected="true"/>
+      <extended_size_for_chars isSelected="false"/>
+      <not_null_short_form_generation isSelected="false"/>
+      <use_quoted_identifiers isSelected="false"/>
+      <create_domains_during_import isSelected="true"/>
+      <generate_comments_in_rdbms isSelected="true"/>
+      <generate_inline_column_cc isSelected="false"/>
+      <generate_valid_value_cc isSelected="true"/>
+      <include_default_settings_in_ddl isSelected="false"/>
+      <include_logging_in_ddl isSelected="true"/>
+      <include_schema_in_ddl isSelected="true"/>
+      <include_storage_in_ddl isSelected="true"/>
+      <include_tablespace_in_ddl isSelected="true"/>
+      <automatic_pk_generation isSelected="false"/>
+      <automatic_uk_generation isSelected="false"/>
+      <automatic_fk_generation isSelected="false"/>
+      <include_pctfree_in_ddl isSelected="true"/>
+      <include_pctused_in_ddl isSelected="true"/>
+      <include_initrans_in_ddl isSelected="true"/>
+      <include_initialextent_in_ddl isSelected="true"/>
+      <include_nextextent_in_ddl isSelected="true"/>
+      <include_minextents_in_ddl isSelected="true"/>
+      <include_maxextents_in_ddl isSelected="true"/>
+      <include_pctincrease_in_ddl isSelected="true"/>
+      <include_bufferpool_in_ddl isSelected="true"/>
+      <include_freelists_in_ddl isSelected="true"/>
+      <include_freelistgroups_in_ddl isSelected="true"/>
+      <include_optimal_in_ddl isSelected="true"/>
+   </OSDDM_DDLPP>
+   <dropSelection>
+      <dropGeneratedObjectsOnly isSelected="true"/>
+      <useDropDependencies isSelected="true"/>
+      <dropableObject name="Tables" isSelected="false"/>
+      <dropableObject name="Indexes" isSelected="false"/>
+      <dropableObject name="Views" isSelected="false"/>
+      <dropableObject name="Foreign Keys" isSelected="false"/>
+   </dropSelection>
+</DatamodelerPersistedDDLSelection>

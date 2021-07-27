@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="5F113395-455F-6E45-06DD-147F18043585" containerWithKeyObject="B3C22D76-610B-5758-58D2-146E4F775EDD" localFKIndex="8528A352-6A95-87D4-622F-D1FB30FDF4A8" name="Hranire_Stupina_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>999908CD-6EFC-845D-B292-4AD732C74CFE</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<referredTableLongName>Stupina</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>E56547B4-D1EE-3581-D995-5EFB913FE484</referredTableID>
+<keyObject>2B062317-E935-618D-7DBF-B94BFB618C04</keyObject>
+<referredKeyID>2B062317-E935-618D-7DBF-B94BFB618C04</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_stupina</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

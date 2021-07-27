@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="96C39693-6314-8FF4-77CB-46B37C0B61EC" containerWithKeyObject="A32C8222-D173-DE19-CE3A-E968F11CF49A" localFKIndex="9D104897-3809-A6BB-A409-6940E45EFF75" name="Poze_articol_Articole_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:32:28 UTC</createdTime>
+<generatorID>45FCBF34-16F7-F715-3DA1-38551A127A76</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<referredTableLongName>Articole</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>5389E383-8E04-AB93-0872-B09F5F0F86A5</referredTableID>
+<keyObject>43920452-0A55-FBB7-ED1E-20CAF2018523</keyObject>
+<referredKeyID>43920452-0A55-FBB7-ED1E-20CAF2018523</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_articol</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

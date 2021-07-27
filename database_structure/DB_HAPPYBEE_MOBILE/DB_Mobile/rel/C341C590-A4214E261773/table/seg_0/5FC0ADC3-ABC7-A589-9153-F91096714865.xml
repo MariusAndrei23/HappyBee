@@ -1,0 +1,187 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="5FC0ADC3-ABC7-A589-9153-F91096714865" name="Utilizatori">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>396C400B-2511-39EA-9D00-CB14324DFA36</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_utilizator" id="94BBEFC5-900D-586D-C087-E6D5C92CE3CB">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>89B8A962-95CC-AEB2-3386-0F1E27911CBA</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fotografie" id="A4E76439-E477-AA6B-2687-A40476EC0489">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>85EA76C7-9D92-D15F-15DD-009DF9691C3D</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT029</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nume" id="81ECC959-F6DF-CE84-A5B9-0AD2275435D2">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>3E1D3C87-ECD9-1607-7080-6F7E26EC718D</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="prenume" id="D48E6C62-7DB5-5044-C818-E5B7B79ACA82">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>6B380A9C-874C-F83F-5113-881497170147</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>20,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="sex" id="8B1D6AD6-BDAE-59D3-681C-62FFC1DD495F">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>D0AEB982-E7E5-BA50-2B85-85B61814D4E0</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="CFFDD0B2-DBEF-D33D-FE5E-738550A8B891">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>A63AAE66-56F2-248B-2EEA-843751EF43C5</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>45</dataTypeSize>
+<ownDataTypeParameters>45,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="alias" id="E68DE0BA-7816-D119-8D8E-B208EDE63D41">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>32206704-5AC7-B506-49AA-A189F5D94B58</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="parola" id="5091EFA5-1724-9888-9303-E77D3CF2625E">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>2A62ECEE-67BD-23C7-6077-74C51CA3D8CD</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="judet" id="1F156B83-4284-306C-5AD2-BE2447233C6D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>B085ED12-F0FC-971C-6186-ADE618ABC01F</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="localitate" id="E8933123-2C1D-EC8D-57C8-A6A386C6E4BC">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>F25D8AAE-68AA-2462-A693-22CAE9123F52</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="adresa" id="9599ADA7-6604-54A1-7081-F1DA5D846086">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>92022E4A-3AAB-12D1-AD9D-278D2B85C312</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>25</dataTypeSize>
+<ownDataTypeParameters>25,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_admin" id="47589DA0-5CF7-3D44-6F4F-B102E7F2C6DC">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>05DBC1F6-C764-1988-1C62-2D8498776844</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>1</dataTypeSize>
+<ownDataTypeParameters>1,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="C9B5B0D3-31BE-71A2-B561-DEAD34BE1D16">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>89D45063-8ECA-7B02-590E-3E2CA8ACBF67</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0537C1BB-693F-AEDF-090D-23E69741A415" name="Utilizatori_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:04:42 UTC</createdTime>
+<generatorID>504D2AF7-58EE-C74D-93CB-4A23243A37AE</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="94BBEFC5-900D-586D-C087-E6D5C92CE3CB"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

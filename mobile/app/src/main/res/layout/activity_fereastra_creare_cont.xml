@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FereastraCreareCont">
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cc_parola"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
+        android:background="@drawable/round_corners"
+        android:hint="@string/parola"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_confirmare_parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cc_bum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="17sp" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/cc_confirmare_parola"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:background="@drawable/round_corners"
+        android:hint="@string/confirmare_parola"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_alias"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:passwordToggleEnabled="true">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/cc_bum2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"
+            android:textSize="17sp" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <EditText
+        android:id="@+id/cc_alias"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:background="@drawable/round_corners"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/alias"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_btn_creare_cont"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        android:autofillHints="" />
+
+    <EditText
+        android:id="@+id/cc_prenume"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/round_corners"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/prenume"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cc_nume"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="20dp"
+        android:autofillHints=""
+        android:background="@drawable/round_corners"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="@string/nume"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_prenume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="174dp"
+        android:layout_height="159dp"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/oleoscriptswashcaps_regular"
+        android:rotation="-15"
+        android:text="@string/creare_cont"
+        android:textColor="#B26C45"
+        android:textSize="64sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/cc_nume"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cc_btn_creare_cont"
+        android:layout_width="144dp"
+        android:layout_height="44dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/round_corners_actionbtn"
+        android:text="@string/creare_cont_btn"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/cc_email"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="24dp"
+        android:autofillHints=""
+        android:background="@drawable/round_corners"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="@string/email"
+        android:paddingLeft="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/cc_parola"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtintrebarecc"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleX="2"
+        android:scaleY="2"
+        android:text="@string/intrebare"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.884"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.727" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

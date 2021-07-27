@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="62738A27-8E96-EA75-05BB-475A8CCD7795" containerWithKeyObject="138647FB-3284-51EC-B2E5-50FEE788FC39" localFKIndex="6E4FA891-5932-8001-822D-68321F1FF9A7" name="Sesizari_Anunturi_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 15:28:12 UTC</createdTime>
+<generatorID>428A3F2E-9839-F81A-D103-37C9721A5B9A</generatorID>
+<ownerDesignName>DB_Web_HappyBee</ownerDesignName>
+<referredTableLongName>Anunturi</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>2E7D0573-6947-72F8-0366-A2756A2A018F</referredTableID>
+<keyObject>79E52A8B-D5D0-1B32-C119-35C32C2F3E15</keyObject>
+<referredKeyID>79E52A8B-D5D0-1B32-C119-35C32C2F3E15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_anunt</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

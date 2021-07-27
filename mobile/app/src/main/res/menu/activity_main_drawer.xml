@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profile"
+            android:icon="@drawable/ic_baseline_account_circle_24"
+            android:title="@string/profil" />
+        <item
+            android:id="@+id/nav_statistici"
+            android:icon="@drawable/ic_baseline_bar_chart_24"
+            android:title="@string/statistici" />
+        <item
+            android:id="@+id/nav_stupina"
+            android:icon="@drawable/ic_baseline_inventory_24"
+            android:title="@string/stupina" />
+        <item
+            android:id="@+id/nav_lista"
+            android:icon="@drawable/ic_baseline_check_circle_24"
+            android:title="@string/verificari" />
+        <item
+            android:id="@+id/nav_cantar"
+            android:icon="@drawable/ic_baseline_takeout_dining_24"
+            android:title="@string/cantar" />
+        <item
+            android:id="@+id/nav_extractie"
+            android:icon="@drawable/ic_baseline_invert_colors_24"
+            android:title="@string/extractie" />
+
+        <item
+            android:id="@+id/nav_hranire"
+            android:icon="@drawable/ic_baseline_food_bank_24"
+            android:title="@string/hranire"/>
+
+        <item
+            android:id="@+id/nav_tratare"
+            android:icon="@drawable/ic_baseline_healing_24"
+            android:title="@string/tratare" />
+
+        <item
+            android:id="@+id/nav_deplasare"
+            android:icon="@drawable/ic_baseline_directions_car_24"
+            android:title="@string/deplasari" />
+        <item
+            android:id="@+id/nav_despre"
+            android:icon="@drawable/ic_baseline_info_24"
+            android:title="@string/despre" />
+    </group>
+</menu>

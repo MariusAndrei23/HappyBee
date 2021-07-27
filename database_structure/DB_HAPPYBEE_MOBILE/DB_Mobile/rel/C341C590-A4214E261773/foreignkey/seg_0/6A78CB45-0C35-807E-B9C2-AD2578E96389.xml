@@ -1,0 +1,17 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="6A78CB45-0C35-807E-B9C2-AD2578E96389" containerWithKeyObject="E7401EB8-E488-8036-9571-7C7BCABD742A" localFKIndex="34258206-82FA-D600-EC67-CDB14F0A430A" name="Verificari_Stup_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>BE42E0D9-6876-E4DD-19D0-BD485EF6DD6C</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<referredTableLongName>Stup</referredTableLongName>
+<deleteRule>CASCADE</deleteRule>
+<referredTableID>BFE763BB-28E2-C588-39F3-64AF8C24123E</referredTableID>
+<keyObject>489FC397-D054-EDE6-44FB-4A0EA8249250</keyObject>
+<referredKeyID>489FC397-D054-EDE6-44FB-4A0EA8249250</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>id_stup</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

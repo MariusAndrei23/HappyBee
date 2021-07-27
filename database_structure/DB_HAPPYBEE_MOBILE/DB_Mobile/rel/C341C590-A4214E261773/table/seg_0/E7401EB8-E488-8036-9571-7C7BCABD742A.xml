@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="E7401EB8-E488-8036-9571-7C7BCABD742A" name="Verificari">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>A18B8416-709D-D3A5-09D0-2A4C0176FF6D</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_verificare" id="49673B2F-CC05-3229-139E-8F205FD5EA36">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>19E06998-B61F-3E27-2075-BE7BA8EDC121</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="data" id="05B77823-8DC3-7E3E-C232-1C2E123C1ED4">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>E1E73C00-5254-E75E-A724-F181304E27B2</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="actiune" id="E5205C93-578B-B3EE-6B3A-8C84C0F7872D">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>B134FD77-5448-FDCD-68AC-E8CA525F8F26</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30</dataTypeSize>
+<ownDataTypeParameters>30,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="is_deleted" id="412900BC-B6BA-7510-46E5-59A86DAC5A92">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>26ECFDBC-5AF2-67AF-19C5-10D982A6097C</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT006</logicalDatatype>
+<dataTypeSize>0</dataTypeSize>
+<ownDataTypeParameters>0,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="Stup_id_stup" id="208D651F-520E-BCFF-E0E1-3AD419842B6E">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>5E21D848-345E-D84B-FFEE-0EE14B90BF8F</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT011</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6A78CB45-0C35-807E-B9C2-AD2578E96389" referredColumn="68D54A3B-6DE6-87EA-714E-D96FE5D134AB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D6BB228D-0E0C-4D88-46E7-4CE90963220D" name="Verificari_PK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 16:42:16 UTC</createdTime>
+<generatorID>677516A5-5D13-C808-8423-52F67F22434B</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="49673B2F-CC05-3229-139E-8F205FD5EA36"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="34258206-82FA-D600-EC67-CDB14F0A430A" name="Verificari_Stup_FK">
+<createdBy>Andrei Marius</createdBy>
+<createdTime>2020-12-05 17:21:41 UTC</createdTime>
+<generatorID>BE42E0D9-6876-E4DD-19D0-BD485EF6DD6C</generatorID>
+<ownerDesignName>DB_Mobile</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="208D651F-520E-BCFF-E0E1-3AD419842B6E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>
